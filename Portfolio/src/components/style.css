@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+}
+
+li{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+li:hover{
+    color: #0ef;
+}
