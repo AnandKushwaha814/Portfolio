@@ -14,10 +14,13 @@ const skills = () => {
             Feontend Developer
           </h4>
           <p className="text-xl text-blue-100 mt-3 mb-16 leading-relaxed">
-            I'm a Frontend Web Developer. I'm passionate about developing web applications. I have experience in HTML, CSS, JavaScript, Bootstrap, React Js more.
+            I&apos;m a Frontend Web Developer. I&apos;m passionate about developing web applications. I have experience in HTML, CSS, JavaScript, Bootstrap, React Js more.
           </p>
-          <a href="#" className="inline-block bg-[#0ef] text-[#081b29] py-3 px-4 rounded-[16px] hover:bg-[#0ef]  hover:transition hover:shadow-cyan">
+          <a href="#" className="inline-block bg-slate-200 text-[#081b29] py-3 px-4 rounded-[16px]  hover:transition hover:shadow-cyan">
             More About
+          </a>
+          <a href="https://drive.google.com/file/d/1fRl7-TNYdxJCkot2qGJY0_JDUwawYiDI/view?usp=sharing" target="_blank" className="inline-block bg-slate-200 ml-10 text-[#081b29] py-3 px-4 rounded-[16px]  hover:transition hover:shadow-cyan">
+            Resume
           </a>
         </div>
       </div>
