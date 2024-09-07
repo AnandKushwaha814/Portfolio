@@ -34,6 +34,7 @@ const skills = () => {
         <Projects title="Landing-Page " image={LandingPage} link="https://github.com/AnandKushwaha814/CODSOFT/tree/main/Landing%20Page" alt="Flipcart-Clone"/>
         <Projects title="Calculator " image={Calculator} link="https://github.com/AnandKushwaha814/CODSOFT/tree/main/calculator" alt="Calculator"/>
         </div>
+        
 
       </>
     )

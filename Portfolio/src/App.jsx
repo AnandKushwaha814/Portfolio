@@ -1,8 +1,8 @@
-import AllComponent from './components/AllComponent'
+import Layout from './components/Layout'
 function App() {
   return (
     <>
-    <AllComponent/>
+    <Layout/>
     </>
   )
 }

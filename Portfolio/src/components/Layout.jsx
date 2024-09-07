@@ -9,7 +9,7 @@ import Project from './Project'
 import Footer from './Footer'
 import Error from './ErrorMsg'
 
-export default function AllComponent() {
+function Layout() {
   return (
     <div >
       <BrowserRouter>
@@ -29,3 +29,4 @@ export default function AllComponent() {
     </div>
   )
 }
+export default Layout

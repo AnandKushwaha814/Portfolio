@@ -21,6 +21,7 @@ const skills = () => {
           </a>
           <a href="https://drive.google.com/file/d/1fRl7-TNYdxJCkot2qGJY0_JDUwawYiDI/view?usp=sharing" target="_blank" className="inline-block bg-slate-200 ml-10 text-[#081b29] py-3 px-4 rounded-[16px]  hover:transition hover:shadow-cyan">
             Resume
+            
           </a>
         </div>
       </div>

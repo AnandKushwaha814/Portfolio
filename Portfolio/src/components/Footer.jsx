@@ -19,6 +19,7 @@ const Skills = () => {
           | &#169; 2024 All Rights Reserved
         </span>
       </div>
+      
     </>
   );
 }

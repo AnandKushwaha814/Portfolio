@@ -18,6 +18,7 @@ const MyService = () => {
                 <ServicesLayout title="PhotoGraphy" icon={<GiPhotoCamera size={35}/>}description="I'm a natural Photograpohy."/>
                 <ServicesLayout title="App Development" icon={<MdAppShortcut size={35}/>}description="I'm a Mobile App Developer you can hire me for Develop your Apps."/>
             </div>
+            
         </>
 
     )

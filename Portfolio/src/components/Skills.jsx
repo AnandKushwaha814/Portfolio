@@ -139,6 +139,7 @@ const Skills = () => {
             </svg>
             <div className="text-3xl font-bold mt-4">55%</div>
             <div className="text-lg font-bold">Video Editing</div>
+            
           </div>
           </div>
       

@@ -11,6 +11,7 @@ function Projects({ title, image,link, alt }) {
           <a className="bg-blue-600 text-white font-bold p-3 rounded flex justify-center items-center hover:bg-green-500"
           href={link} target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
+        
       </div>
     </>
   );

@@ -20,6 +20,7 @@ const Skills = () => {
         <img className="h-[90px] w-[90px] rounded-full" src={logo1} alt="" />
       </ul> transition duration-500 ease-in hover:transform hover:scale-105
       <div className="mt-24 p-6">
+        
       </div>
     </div>
   );

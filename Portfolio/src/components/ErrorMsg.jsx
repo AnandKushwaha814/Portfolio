@@ -8,6 +8,7 @@ const ErrorMsg = () => {
         <p className='ml-auto mr-auto mt-[2vh] mb-[-4vh] w-[100%] text-center leading-[18px] font-bold p-4 text-[25px]'> While you’re here, feast your eyes upon these popular </p>
         <p className='ml-auto mr-auto mt-[2vh] mb-[-4vh] w-[100%] text-center leading-[18px] font-bold p-3 text-[25px]'> recommendations for you.</p>
       </div>
+      
     </div>
   )
 }
