@@ -1,4 +1,4 @@
-const skills = () => {
+const Contact = () => {
   return (
     <>
       <h2 className="text-4xl md:text-6xl font-bold text-center p-10">
@@ -22,4 +22,4 @@ const skills = () => {
   )
 }
 
-export default skills
+export default Contact

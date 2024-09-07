@@ -9,6 +9,11 @@ import Netflix from '../assets/netflix.jpg'
 import FlipCart from '../assets/flipcart.png'
 import Amazone from '../assets/amazone.jpeg'
 import ImgGallery from '../assets/img-gallery.jpeg'
+import PortFolio from '../assets/PortFolio.png'
+import Express from '../assets/Express.png'
+import SocialMedia from '../assets/social-media.png'
+import LandingPage from '../assets/Landing-Page.png'
+import Calculator from '../assets/calculator.png'
 const skills = () => {
     return (
       <>
@@ -23,6 +28,11 @@ const skills = () => {
         <Projects title="Image-Gallery " image={ImgGallery} link="https://github.com/AnandKushwaha814/Image-Gallery" alt="Image-Gallery "/>
         <Projects title="Amazone-Clone " image={Amazone} link="https://github.com/AnandKushwaha814/Amazone_Clone" alt="Amazone-Clone"/>
         <Projects title="Flipcart-Clone " image={FlipCart} link="https://github.com/AnandKushwaha814/Flipcart-Clone" alt="Flipcart-Clone"/>
+        <Projects title="PortFolio " image={PortFolio} link="https://github.com/AnandKushwaha814/CodeAlpha/tree/main/CodAlpha%20Portfolio" alt="Portfolio"/>
+        <Projects title="Expense-Tracker " image={Express} link="https://github.com/AnandKushwaha814/CodeAlpha/tree/main/Code_Alpha_Expense_Tracker-main" alt="Expense-Tracker"/>
+        <Projects title="Social-Media-Dashboard " image={SocialMedia} link="https://github.com/AnandKushwaha814/CodeAlpha/tree/main/Social%20Media%20Dashboard" alt="Social-Media Dashboard"/>
+        <Projects title="Landing-Page " image={LandingPage} link="https://github.com/AnandKushwaha814/CODSOFT/tree/main/Landing%20Page" alt="Flipcart-Clone"/>
+        <Projects title="Calculator " image={Calculator} link="https://github.com/AnandKushwaha814/CODSOFT/tree/main/calculator" alt="Calculator"/>
         </div>
 
       </>
