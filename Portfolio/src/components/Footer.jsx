@@ -1,11 +1,11 @@
-const Skills = () => {
+const Footer = () => {
   return (
     <>
       {/* Other content can go here */}
       
       {/* Footer */}
-      <div className="bg-[#4070f4] p-2 sticky text-center font-serif bottom-0 left-0 w-full">
-        <span className="text-lg font-normal text-white">
+      <footer className="bg-[#4070f4] p-4 text-center font-serif w-full">
+        <span className="text-base sm:text-lg font-normal text-white">
           Created By 
           <a 
             className="hover:text-[#0ef] hover:font-bold ml-1" 
@@ -18,10 +18,9 @@ const Skills = () => {
           </a> 
           | &#169; 2024 All Rights Reserved
         </span>
-      </div>
-      
+      </footer>
     </>
   );
 }
 
-export default Skills;
+export default Footer;

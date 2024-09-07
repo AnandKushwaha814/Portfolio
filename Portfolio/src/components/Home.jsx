@@ -3,7 +3,8 @@ import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
 const Home = () => {
-  const el = useRef(null); // create a reference to the DOM element
+  const el = useRef(null);
+
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Frontend Developer", "App Developer", "YouTuber"],
@@ -12,45 +13,40 @@ const Home = () => {
       backDelay: 1000,
       loop: true,
     });
-    // Destory the typed effect when the component unmounts to prevent memory leaks
     return () => {
       typed.destroy();
     };
   }, []);
 
-
-
   return (
-    <div className="flex flex-col md:flex-row-reverse items-center justify-between p-5">
+    <div className="flex flex-col md:flex-row-reverse items-center justify-between p-5 md:p-10">
       {/* Image Section */}
-      <div className="w-full md:w-1/2">
-        <img className="w-full h-auto object-cover rounded-lg" src={Anand} alt="Anand Kushwaha" />
+      <div className="w-full md:w-1/2 flex justify-center">
+        <img className="w-full max-w-xs md:max-w-md h-auto object-cover rounded-lg" src={Anand} alt="Anand Kushwaha" />
       </div>
 
-      {/* Content section */}
-      <div className="w-full md:w-1/2 m-[50px] mt-10 md:mt-0 md:ml-10 max-w-[500px]">
-        <h3 className="text-2xl font-bold">
-          Hello It&apos;s Me
+      {/* Content Section */}
+      <div className="w-full md:w-1/2 mt-10 md:mt-0 md:ml-10 max-w-lg text-center md:text-left">
+        <h3 className="text-xl md:text-2xl font-bold">
+          Hello, It&apos;s Me
         </h3>
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-bold mt-2">
           Anand Kushwaha
         </h1>
-        <h3 className="text-2xl font-bold mb-8">
-          And I&apos;m a <span className="text text-red-600 text-3xl" ref={el}></span>
+        <h3 className="text-xl md:text-2xl font-bold mb-6">
+          And I&apos;m a <span className="text-red-600 text-2xl md:text-3xl" ref={el}></span>
         </h3>
-        <p className="text-lg mb-5">
-          I&apos;m a web Designer. <br />
-          My expertise is in creating websites, frontend design, and backend development.
+        <p className="text-md md:text-lg mb-6 leading-relaxed">
+          I&apos;m a web designer.<br /> My expertise is in creating websites, frontend design, and backend development.
         </p>
         <a
           href="about"
-          className="inline-block px-6 py-3 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-700"
+          className="inline-block px-6 py-3 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
         >
           More About Me
         </a>
       </div>
     </div>
-    
   );
 };
 
