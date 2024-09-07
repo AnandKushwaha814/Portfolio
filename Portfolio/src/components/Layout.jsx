@@ -6,7 +6,7 @@ import About from './About'
 import Contact from './Contact'
 import Navbar from './Navbar'
 import Project from './Project'
-import Footer from './Footer'
+// import Footer from './Footer'
 import Error from './ErrorMsg'
 
 function Layout() {
@@ -24,7 +24,7 @@ function Layout() {
       <Route path='/Project' element={<Project/>}/>
       <Route path='*' element={<Error/>}/>
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </BrowserRouter>
     </div>
   )

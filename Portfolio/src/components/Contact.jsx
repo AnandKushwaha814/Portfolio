@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="space-y-4">
             <div className="flex items-center justify-center text-2xl md:text-3xl gap-4 md:gap-8">
               <MdEmail size={30} />
-              <span className="break-all">anandkushwaha122@gmail.com</span>
+              <span className="break-all">anandkushwaha1220@gmail.com</span>
             </div>
             <div className="flex items-center text-2xl md:text-3xl gap-4 md:gap-8">
               <IoCall size={30} />
