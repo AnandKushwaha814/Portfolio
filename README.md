@@ -33,5 +33,7 @@ I’m excited to connect with you! Whether you have questions, feedback, or oppo
 Gain insight into the technologies I leverage to build high-quality, performant web applications. This section delves into the tools and frameworks I use, including `React` and `Tailwind CSS`, explaining how they contribute to creating dynamic and responsive user experiences.
 Experience a modern, fluid, and visually appealing portfolio that reflects my dedication to delivering excellence in web development. Enjoy navigating through each section, all optimized for an intuitive and responsive viewing experience.
 ## Responsive.
-it is fiully Responsive with diffrenet-diffreent Device's. it looks like..
+it is fiully Responsive with diffrenet-diffreent Device's. it looks like.
+
+
 ![Screenshot 2024-09-07 172252](https://github.com/user-attachments/assets/808396d3-092b-4249-84ad-5cb99a7561d5)
