@@ -2,10 +2,7 @@ import Anand from '../assets/anand.jpg';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
-
-
 const Home = () => {
-
   const el = useRef(null); // create a reference to the DOM element
   useEffect(() => {
     const typed = new Typed(el.current, {
