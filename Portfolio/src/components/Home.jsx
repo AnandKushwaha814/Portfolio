@@ -40,7 +40,7 @@ const Home = () => {
           I&apos;m a web designer.<br /> My expertise is in creating websites, frontend design, and backend development.
         </p>
         <a
-          href="about"
+          href="https://github.com/AnandKushwaha814" target='_blank'
           className="inline-block px-6 py-3 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
         >
           More About Me
