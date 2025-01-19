@@ -27,7 +27,7 @@ const About = () => {
 
           <div className="flex flex-col md:flex-row justify-center md:justify-start items-center space-y-4 md:space-y-0 md:space-x-6">
             <a
-              href="#"
+              href="https://github.com/AnandKushwaha814" target="_blank"
               className="inline-block bg-slate-200 text-[#081b29] py-3 px-6 rounded-[16px] hover:bg-cyan-400 hover:text-white transition"
             >
               More About
